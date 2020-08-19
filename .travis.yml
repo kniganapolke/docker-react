@@ -7,4 +7,4 @@
     - docker build -t opanco/docker-react -f Dockerfile.dev .
 
   script:
-  - docker run -e CI=true opanco/docker-react npm run test
+    - docker run -e CI=true opanco/docker-react npm run test
